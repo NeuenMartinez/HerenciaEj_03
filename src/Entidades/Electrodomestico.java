@@ -112,8 +112,8 @@ public class Electrodomestico {
         precioFinal();
     }
 
-    protected void precioFinal() {
-
+    public void precioFinal() {
+        
         switch (consumo) {
             case "A":
                 precio = precio + 1000;

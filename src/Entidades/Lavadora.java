@@ -33,7 +33,7 @@ public final class Lavadora extends Electrodomestico{
     }
     
 
-    protected void precioFinalLavadora(){
+    public void precioFinalLavadora(){
         if (carga >= 30){
             precio = precio + 500;
         }  

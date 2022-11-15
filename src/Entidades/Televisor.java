@@ -61,7 +61,7 @@ public final class Televisor extends Electrodomestico {
         precioFinalTV();
     }
     
-    protected void  precioFinalTV(){
+    public void  precioFinalTV(){
         if (resolucion > 40){
             precio = precio + (precio * 0.3);
         }
